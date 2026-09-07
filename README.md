@@ -110,6 +110,27 @@ If you discover vulnerabilities using this tool, follow responsible disclosure p
 2. Allow reasonable time for remediation
 3. Do not exploit beyond proof of concept
 
+## Live Lab Test Plan
+
+| Phase | Description | Go / No-Go Criteria | Status |
+|-------|-------------|---------------------|--------|
+| Phase 0 | Offline orchestrator validation (this tool) | Demo exits 0, all tests pass, alignment < 1 ms | DONE |
+| Phase 1 | Radio rig bring-up + scenario DSL replay | Scripted scenarios schedule identically on real radios | PENDING |
+| Phase 2 | GPIO-pulse clock alignment on hardware | Measured alignment error < 1 ms across all radios | PENDING |
+| Phase 3 | Cross-protocol interference case studies on-air | Case-study loss rates correlate with F1 benchmark | PENDING |
+
+## Metrics
+
+| Metric | Target | Current |
+|--------|--------|---------|
+| Scenario DSL parse (events) | Deterministic | 12 |
+| Expansion (frames) | 76 | 76 |
+| Alignment error | < 1.0 ms | 0.145 ms |
+| Radio frames (expansion) | > 60 | 76 |
+| Case studies | 4 | 4 |
+| Test pass rate | 100% | 100% |
+| Demo exit code | 0 | 0 |
+
 ## License
 
 MIT
