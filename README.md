@@ -1,3 +1,8 @@
+> **⚠️ EDUCATIONAL USE ONLY — AUTHORIZED TESTING ONLY.**
+> This project exists for education, research, and **defense of systems you own
+> or hold explicit written authorization to assess**. Unauthorized use is
+> prohibited and may be illegal. Read [ETHICS.md](ETHICS.md) and
+> [SCOPE.md](SCOPE.md) before use. Use at your own risk; **AS IS**, no warranty.
 # P5 — PHYTbed: multi-protocol PHY testbed orchestrator — p5-phytbed
 
 Pure-Python orchestrator/simulation for a multi-protocol physical-layer testbed (802.11, ESP-NOW, 802.15.4/BLE, sub-GHz) with scenario DSL, clock alignment, event logs, interference matrix automation, and cross-protocol case studies.
